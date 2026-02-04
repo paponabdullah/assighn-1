@@ -1,0 +1,244 @@
+
+
+*{
+    width: 1600px;
+    margin: 0 auto;
+    padding: 0;
+    list-style: none;
+    box-sizing: border-box;
+
+}
+
+ .navbar{
+    width: 100%;
+    height: 90px;
+    background-color: #8b4e4e2c;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.navmenu {
+    width: 360px;
+    height: 24px;
+     font-size: 15px;
+    padding: 5px 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+
+
+.navbar img{
+    width: 90px;
+    height: 50px;
+    margin: 12px auto 12px 120px;
+}
+
+
+
+  .navbtn{
+    background-color: rgba(108, 190, 144, 0.772);
+    width: 180px;
+    height: 40px;
+    margin: 24px 120px 24px auto;
+    border-radius: 10px;
+}
+
+.banner1{
+    width: 100%;
+    height: 670px;
+    display: flex ;
+    position: relative;
+}
+
+
+#hero {
+    background-image: url(./assets/hero-bg.png);
+    width: 100%;
+    height: 100%;
+    
+    
+    
+}
+
+.herobtn1-div{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.herobtn1-div img{
+    width: 16px;
+    height: 16px;
+    position:absolute;
+    margin-right: 170px;
+    
+    
+}
+
+.herobtn1-div .herobtn1{
+    width: 225px;
+    height: 35px;
+    background-color: antiquewhite;
+    color: black;
+    border-radius: 20px;
+    
+
+
+}
+
+
+ .banner-content{
+  height: 170px;
+  margin-top: 15px;
+  text-align: center;
+  font-size: 25px;
+  
+  
+
+ }
+
+ 
+
+ .banner-content  .hero-h1{
+    
+    color: aliceblue;
+ }
+
+.hero-h12{
+    font-size: 28px;
+    color: rgba(90, 245, 90, 0.829);
+}
+
+
+
+
+.hero-p1{
+    color: rgb(255, 255, 255);
+    justify-content: center;
+    height: 168px;
+    display: flex;
+    flex-direction: column;
+    line-height: 24px;
+    text-align: center;
+    height: 60px;
+    
+}
+
+  .btn-hero{
+    position: relative;
+    margin-top: 10px;
+    
+    
+    
+    
+  }
+  
+  
+
+ .herobtn2{
+    width: 200px;
+    height: 40px;
+    position: absolute;
+    margin-left: 52%;
+    background-color: rgba(255, 255, 255, 1);
+    
+    
+ }  
+
+.herobtn3{
+    width: 200px;
+    height: 40px;
+    margin-left: 38%;
+    background-color: #30B868;
+}
+
+  .card-div{
+    width: 100%;
+    height: 450px;
+    position: relative;
+    background-color: rgb(235, 232, 232);
+  }
+ 
+  .div-card img{
+    width: 32px;
+    height: 32px;
+  }
+
+            
+  .card-div h1 {
+    text-align: center;
+    padding-top: 20px;
+
+  }
+  .card-p {
+    text-align: center;
+  }
+
+  .div-card{
+    
+    width: 1360px;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+    
+
+  }
+
+  .div-card h3{
+    width: 274px;
+    height: 29px;
+    text-align: center;
+    margin-top: 10px  ;
+    
+  
+
+  }
+
+  .div-card p{
+    width: 274px;
+    height: 40px;
+    text-align: center;
+    
+    
+  }
+
+  .div-card img{
+    margin-top:90px;
+    display: block;
+    border-radius: 15px;
+  }
+
+  .card-1{
+    width: 322px;
+    height: 300px;
+    margin: auto;
+     box-shadow: 0px 0px 10px 1px black;
+  }
+
+  .card-2{
+    width: 322px;
+    height: 300px;
+     box-shadow: 0px 0px 10px 1px black;
+  }
+ .card-3{
+    width: 322px;
+    height: 300px;
+     box-shadow: 0px 0px 10px 1px black;
+ }
+
+ .card-4{
+    width: 322px;
+    height: 300px;
+     box-shadow: 0px 0px 10px 1px black;
+ }

@@ -12,7 +12,7 @@
  .navbar{
     width: 100%;
     height: 90px;
-    background-color: #8b4e4e2c;
+    
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -41,7 +41,7 @@
 
 
   .navbtn{
-    background-color: rgba(108, 190, 144, 0.772);
+    background-color: rgba(34, 153, 86, 0.772);
     width: 180px;
     height: 40px;
     margin: 24px 120px 24px auto;
@@ -60,9 +60,6 @@
     background-image: url(./assets/hero-bg.png);
     width: 100%;
     height: 100%;
-    
-    
-    
 }
 
 .herobtn1-div{
@@ -79,8 +76,6 @@
     height: 16px;
     position:absolute;
     margin-right: 170px;
-    
-    
 }
 
 .herobtn1-div .herobtn1{
@@ -89,9 +84,6 @@
     background-color: antiquewhite;
     color: black;
     border-radius: 20px;
-    
-
-
 }
 
 
@@ -100,9 +92,6 @@
   margin-top: 15px;
   text-align: center;
   font-size: 25px;
-  
-  
-
  }
 
  
@@ -135,10 +124,6 @@
   .btn-hero{
     position: relative;
     margin-top: 10px;
-    
-    
-    
-    
   }
   
   
@@ -149,15 +134,13 @@
     position: absolute;
     margin-left: 52%;
     background-color: rgba(255, 255, 255, 1);
-    
-    
  }  
 
 .herobtn3{
     width: 200px;
     height: 40px;
     margin-left: 38%;
-    background-color: #30B868;
+    background-color: #56ea93bb;
 }
 
   .card-div{
@@ -175,7 +158,7 @@
             
   .card-div h1 {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 30px;
 
   }
   .card-p {
@@ -190,9 +173,6 @@
     justify-content: center;
     align-items: center;
     position: relative;
-    
-    
-
   }
 
   .div-card h3{
@@ -200,45 +180,234 @@
     height: 29px;
     text-align: center;
     margin-top: 10px  ;
-    
-  
-
   }
 
   .div-card p{
     width: 274px;
     height: 40px;
     text-align: center;
-    
-    
   }
 
   .div-card img{
     margin-top:90px;
     display: block;
     border-radius: 15px;
+    padding: 5px;
+    background-color:#30B868;
   }
 
   .card-1{
     width: 322px;
     height: 300px;
     margin: auto;
-     box-shadow: 0px 0px 10px 1px black;
+     box-shadow: 0px 0px 10px 1px rgba(68, 58, 58, 0.47);
   }
 
   .card-2{
     width: 322px;
     height: 300px;
-     box-shadow: 0px 0px 10px 1px black;
+     box-shadow: 0px 0px 10px 1px rgba(68, 58, 58, 0.47);
   }
  .card-3{
     width: 322px;
     height: 300px;
-     box-shadow: 0px 0px 10px 1px black;
+     box-shadow: 0px 0px 10px 1px rgba(68, 58, 58, 0.47);
  }
 
  .card-4{
     width: 322px;
     height: 300px;
-     box-shadow: 0px 0px 10px 1px black;
+     box-shadow: 0px 0px 10px 1px rgba(68, 58, 58, 0.47);
  }
+
+ .mid-div{
+  width: 1600px;
+  height: 840px;
+  background-color: bisque;
+ }
+
+   .mid-infodiv{
+    width: 700px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(235, 245, 245);
+    margin: 120px 120px 120px 20px;
+   }
+
+   .mid-infodiv h5{
+    font-size: 16px;
+    color: #dff0e6ef;
+    padding-top: 80px;
+    position: absolute;
+    
+   }
+
+   .mid-infodiv h1 {
+    width: 400px;
+    height: 116px; 
+    margin-left: 0px;
+    position: relative;
+    margin-top: 120px;
+    text-align: left;
+   }
+
+   .mid-card{
+    background-color: #e8eeea;
+    position: relative;
+    display: flex;
+   }
+
+   .mid-infodiv p{
+    width: 500px;
+    margin: 265px auto 0px 0px;
+    position: absolute;
+   }
+ 
+   .img-knlg img{
+  width: 600px;
+  height: 600px;
+  margin: 120px  auto 0px 120px;
+ }
+
+ .mid-checkimg img{
+  width: 20px;
+  height: 20px;
+  position: absolute;
+  
+ }
+
+ .mid-checkimg{
+  width: 700px;
+  
+  
+  margin-top: 10px;
+  position: relative;
+
+  margin-left: 0px;
+  
+ }
+ .mid-checkimg h6{
+  width: 380px;
+  height: 20px;
+  position: relative;
+  margin-left: 25px;
+ }
+
+ .mid-detls{
+  width: 100%;
+  height: 150px;
+  margin-top: 100px;
+  
+ }
+
+ .footer-1{
+  width: 100%;
+  height: 500px;
+  background-color: rgb(248, 247, 246);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ }
+
+ .footer-1 h2{
+  width: 1280px;
+  height: 48px;
+  text-align: center;
+  padding-top: 80px; ;
+ }
+
+ .footer-1 p{
+  width: 400px;
+  margin-top: 50px;
+  text-align: center;
+ }
+
+ .f-div{
+  width: 1360px;
+  height: 380px;
+  background-color: rgb(235, 238, 238);
+  
+ }
+
+ .f-btn{
+  width: 190px;
+  height: 50px;
+  position: absolute;
+  margin: 20px 590px ;
+  background-color: #2aa15cb6;
+  border-radius: 5px;
+  color: aliceblue;
+ }
+
+ .footer-1 h6{
+  font-size: 16px;
+  margin-top: 100px;
+  margin-left: 38%;
+  color: #30B868;
+ }
+
+ .footer-2{
+  width: 100%;
+  height: 348px;
+  background-color: #1a0b38;
+  position: relative;
+  align-content: center;
+ }
+
+.f-img-1 img{
+  width: 139px;
+  height: 60px;
+  position:absolute;
+}
+
+.f-items{
+  width: 1300px;
+  height: 250px;
+  position: relative;
+}
+
+.f-img-2{
+  width: 220px;
+  height: 64px; 
+  position: relative;
+  
+}
+
+.s-link h4{
+ width: 113px;
+ height: 28px;
+ margin-right: 120px;
+ color: aliceblue;
+}
+
+.s-link i{
+  width: 25px;
+  height: 25px;
+  background-color: rgb(172, 179, 185);
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 5px; 
+}
+
+.s-link{
+  
+  width: 180px;
+  height: 70px;
+  position: absolute;
+  margin-left: 85%;
+  margin-top: 0px;
+  
+}
+  
+  
+footer p{
+  width: 460px;
+  height: 24px;
+  position: absolute;
+  margin: 220px auto auto 36%;
+  color: #e8eeea;
+  
+}
